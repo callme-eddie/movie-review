@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  margin: 8px 0;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: royalblue;
+}
